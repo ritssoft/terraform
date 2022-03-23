@@ -3,6 +3,8 @@
 .terraform.lock.hcl
 Terraform-AWS/ec2-instance/.terraform/*
 Terraform-AWS/ec2-instance/.terraform.lock.hcl
+Terraform-AWS/../.terraform/*
+Terraform-AWS/../.terraform.lock.hcl
 
 #tf state files
 *.tfstate
