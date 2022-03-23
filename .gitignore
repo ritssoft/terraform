@@ -1,20 +1,10 @@
 # local terraform dir
-.terraform/*
-.terraform.lock.hcl
-Terraform-AWS/ec2-instance/.terraform/*
-Terraform-AWS/ec2-instance/.terraform.lock.hcl
-Terraform-AWS/S3/.terraform/*
-Terraform-AWS/S3/.terraform.lock.hcl
+**/.terraform/*
+**/.terraform.lock.hcl
 
 #tf state files
-*.tfstate
-*.tfstate.*
-Terraform-AWS/ec2-instance/*.tfstate
-Terraform-AWS/ec2-instance/*.tfstate.*
-Terraform-AWS/S3/*.tfstate
-Terraform-AWS/S3/*.tfstate.*
-
+**/*.tfstate
+**/*.tfstate.*
+	
 #tf variable file
-*.tfvars
-Terraform-AWS/ec2-instance/*.tfvars
-Terraform-AWS/S3/*.tfvars
+**/*.tfvars
