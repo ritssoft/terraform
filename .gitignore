@@ -1,6 +1,6 @@
 # local terraform dir
 **/.terraform/*
-**/.terraform.lock.hcl
+#**/.terraform.lock.hcl
 
 #tf state files
 **/*.tfstate
@@ -8,3 +8,6 @@
 	
 #tf variable file
 **/*.tfvars
+
+#ignore Training folder
+Training/
